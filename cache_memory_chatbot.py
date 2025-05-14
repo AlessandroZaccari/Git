@@ -36,6 +36,9 @@ graph = builder.compile(checkpointer=checkpointer) # If you're using LangGraph C
 # Set the thread
 config = {"configurable": {"thread_id": "1"}}
 
+# Set the title
+st.write("# LangGraph implementation of a simple Chatbot with Cache Memory")
+
 # Interact with the chatbot
 go_on = True
 counter=0
