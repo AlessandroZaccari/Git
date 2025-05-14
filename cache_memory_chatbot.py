@@ -22,6 +22,8 @@ def call_model(state: MessagesState):
     return {"messages": response}
 
 
+# TESTA GIT PUSH REPO BRANCHNAME VS GIT PUSH ORIGIN BRANCHNAME!
+
 # Define the graph
 builder = StateGraph(MessagesState)
 builder.add_node("call_model", call_model)
