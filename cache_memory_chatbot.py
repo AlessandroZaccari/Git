@@ -22,6 +22,8 @@ def call_model(state: MessagesState):
     return {"messages": response}
 
 
+# PROVA GIT PULL E GIT PUSH!
+
 # Define the graph
 builder = StateGraph(MessagesState)
 builder.add_node("call_model", call_model)
